@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    text-align: center;
+    /*if we are having width in container them it will not get in center by writing this line only*/
+    font-family: 'Merriweather', serif;
+}
+
+.topcontainer {
+    background-color: #E4F9F5;
+    position: relative;
+    /* this should be written if its child have to use absolute positioning */
+    padding-top: 100px;
+}
+
+.middlecontainer {
+  
+}
+
+.bottomcontainer {
+    
+}
+.first-skill-image{
+    height:200px;
+    border-radius:200%;
+}
+.second-skill-image{
+    height:200px;
+    border-radius:200%;
+}
+.my-profile-image{
+    height:200px;
+    border-radius:200%;
+}
+h1 {
+    margin-top: 0px;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+    /* absolute positioning is relative to parent whereas relative positioning is relative to itself*/
+    left: 300px;
+    bottom: 300px;
+
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
